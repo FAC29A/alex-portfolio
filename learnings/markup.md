@@ -1,4 +1,5 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
+  Accessibility was one of the main requirements
 
 ## 2. Ensure a web page is readable for screen readers
 
