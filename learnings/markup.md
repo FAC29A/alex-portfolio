@@ -31,8 +31,8 @@ I must clarify that our site consists in two pages, being index.html the main on
 
 ```mermaid
 graph LR;
-    A-->B;
-    B-->A;
+    index.html-->expert.html;
+    expert.html-->index.html;
 ```
 
 ## 2. Ensure a web page is readable for screen readers
