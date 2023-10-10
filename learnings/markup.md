@@ -53,9 +53,7 @@ We just used Lighthouse, the built-in web page and web app analyzer in Chrome De
 
 We employed media queries in three steps to adapt the content for various devices, including desktops, tablets, and phones. In the attached screenshot, you can observe variations in element sizes, as well as the reorganization of grid elements.
 
-<img width="267" alt="query" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/5cefbc32-1581-473a-9e41-8507c359a21c">
 ```CSS
-/* Media query */
 @media (max-width: 1024px) {
     .grid-container-services {
         grid-template-columns: 49% calc(2% - 1.25rem) 49%;
