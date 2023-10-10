@@ -54,6 +54,57 @@ We just used Lighthouse, the built-in web page and web app analyzer in Chrome De
 We employed media queries in three steps to adapt the content for various devices, including desktops, tablets, and phones. In the attached screenshot, you can observe variations in element sizes, as well as the reorganization of grid elements.
 
 <img width="267" alt="query" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/5cefbc32-1581-473a-9e41-8507c359a21c">
+```CSS
+/* Media query */
+@media (max-width: 1024px) {
+    .grid-container-services {
+        grid-template-columns: 49% calc(2% - 1.25rem) 49%;
+        max-width: 90%;
+        row-gap: 3rem;
+    }
+
+    footer {
+        padding: 0 3.125rem 0 3.125rem;
+    }
+
+    .team-member-card {
+        max-width: 250px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .grid-container-services {
+        grid-template-columns: 1fr;
+        /* 1 column for phones */
+        grid-template-rows: repeat(8, auto);
+        /* Adjust the number of rows */
+        row-gap: 0;
+        width: 95%;
+    }
+
+    .grid-item-service {
+        padding: 0 1.25rem;
+    }
+
+    .img-cell1,
+    .img-cell2,
+    .img-cell3,
+    .img-cell4 {
+        grid-column: auto;
+        /* Reset column placement for smaller screens */
+        grid-row: auto;
+        /* Reset row placement for smaller screens */
+    }
+
+    .order3 {
+        order: 3;
+    }
+
+    .order4 {
+        order: 4;
+    }
+    ```
 
 ## 6. Demonstrate a mobile-first approach to building a website
 
