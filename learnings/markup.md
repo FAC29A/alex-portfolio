@@ -31,15 +31,15 @@ I must clarify that our site consists in two pages, being index.html the main on
 
 ```mermaid
 graph TD;
-    subgraph Mainflow
+    subgraph index.html
         About_Us-->Your_Needs;
         Your_Needs-->Our_Experts;
         Our_Experts-->Testimonials;
     end
 
-    subgraph Check_Expert
-        Our_Experts-->|Navigate with expertID|expert.html;
-        expert.html-->|Back to experts|Our_Experts;
+    subgraph expert.html
+        Our_Experts-->|Navigate with expertID|Expert;
+        Expert-->|Back to experts|Our_Experts;
     end 
 ```
 
