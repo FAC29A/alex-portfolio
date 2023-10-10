@@ -4,7 +4,7 @@
 
 ### index.html:
 
-* `<header>`: I used this for the header section of my website.
+* `<header>` : I used this for the header section of my website.
 * `<nav>`: I wrapped the navigation menu with this element.
 * `<ul>` and `<li>`: These were used to create an unordered list for navigation links.
 * `<main>`: I encapsulated the main content of my webpage with this.
