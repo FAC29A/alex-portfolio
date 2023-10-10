@@ -198,6 +198,12 @@ We used a grid for our stunning captcha. This element always has the same aspect
 
 ## 10. Ensure our Git commit history tells a coherent story
 
+We tried to keep our commit descriptions as meaningful as possible.
+
+<div align="center">
+<img width="307" alt="commits" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/51671456-3d2f-4ecf-83bb-0577494ea2ba">
+</div>
+
 ## 11. Use the appropriate input types in HTML forms for gathering different types of information
 
 ```CSS
