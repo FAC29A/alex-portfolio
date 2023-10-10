@@ -30,7 +30,15 @@
 
 ## 2. Ensure a web page is readable for screen readers
 
+Utilizing proper semantic HTML elements, as mentioned earlier, is essential to ensure that our webpage is accessible to screen readers.
+
+All the images on our site contain alt attributes with descriptions of the images. The only exception is the captcha modal window. While the captcha is fully functional and visually appealing, in a real-world scenario, we would use reCaptcha or a similar solution.
+
+Additionally, we have incorporated ARIA attributes to enhance accessibility.
+
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
+
+We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows. These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
