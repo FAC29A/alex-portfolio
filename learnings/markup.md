@@ -40,7 +40,9 @@ Additionally, we have incorporated ARIA attributes to enhance accessibility.
 
 We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows.
 
+<div>
 <img width="367" alt="modal" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cd40ef7d-e003-462c-a311-781bf231f49d">
+</div>
 
 These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
 In the expert page we also used a dark colour to indicate that the "send" button from the contact form is disabled until all the fields are fulfilled.
