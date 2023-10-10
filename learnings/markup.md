@@ -45,7 +45,7 @@ On the expert page, we have also used a dark color to indicate that the 'send' b
 
 
 <div align="center">
-<img width="600" alt="contact" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cf325f4a-e5e1-4ca6-b529-df1f6e8dc97e">
+<img width="700" alt="contact" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cf325f4a-e5e1-4ca6-b529-df1f6e8dc97e">
 </div>
 
 
@@ -139,7 +139,7 @@ We don't have any examples of single-direction flexboxes in our code; instead, w
 
 
 <div align="center">
-<img width="600" alt="modalFlex" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/30a0633c-5167-4a95-a9b4-f5afa8e558bd">
+<img width="700" alt="modalFlex" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/30a0633c-5167-4a95-a9b4-f5afa8e558bd">
 </div>
 
 
@@ -176,7 +176,7 @@ We used a grid for our stunning captcha. This element always has the same aspect
 ```
 
 <div align="center">
-<img width="600" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
+<img width="700" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
 </div>
 
 
