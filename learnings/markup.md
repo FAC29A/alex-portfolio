@@ -43,7 +43,9 @@ These colors are defined as root variables, making it easy to modify the color p
 
 On the expert page, we have also used a dark color to indicate that the 'send' button in the contact form is disabled until all fields are filled out. This design choice may make the button text slightly more difficult to read. However, in this case, we prioritize aesthetics and color conventions, such as using dark colors to indicate disabled elements.
 
-<img width="698" alt="contact" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cf325f4a-e5e1-4ca6-b529-df1f6e8dc97e">
+<div align="center">
+<img width="600" alt="contact" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cf325f4a-e5e1-4ca6-b529-df1f6e8dc97e">
+</div>div>
 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
@@ -133,7 +135,9 @@ We employed CSS variables to define all the colors, fonts, and shadows. Perhaps 
 
 We don't have any examples of single-direction flexboxes in our code; instead, we use nested flexboxes. In the example below, there is a parent horizontal flexbox (represented by the burgundy rectangle), and inside it, there is a child vertical flexbox (depicted by the green rectangle) within a modal window. This approach provides us with better adaptability compared to using a grid and helps minimize our use of media queries.
 
-<img width="1073" alt="modalFlex" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/30a0633c-5167-4a95-a9b4-f5afa8e558bd">
+<div align="center">
+<img width="600" alt="modalFlex" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/30a0633c-5167-4a95-a9b4-f5afa8e558bd">
+</div>
 
 ## 9. Use CSS Grid to style children in two-direction layout
 
@@ -167,7 +171,7 @@ We used a grid for our stunning captcha. This element always has the same aspect
 }
 ```
 <div align="center">
-<img width="781" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
+<img width="600" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
 </div>
 
 ## 10. Ensure our Git commit history tells a coherent story
