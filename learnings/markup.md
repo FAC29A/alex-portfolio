@@ -166,7 +166,9 @@ We used a grid for our stunning captcha. This element always has the same aspect
     width: 100%;
 }
 ```
+<div align="center">
 <img width="781" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
+</div>
 
 ## 10. Ensure our Git commit history tells a coherent story
 
