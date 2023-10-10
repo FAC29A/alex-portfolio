@@ -137,6 +137,37 @@ We don't have any examples of single-direction flexboxes in our code; instead, w
 
 ## 9. Use CSS Grid to style children in two-direction layout
 
+We used a grid for our stunning captcha. This element always has the same aspect ratio and won't use wrap properties, so using grid here was the simplest solution.
+
+```CSS
+/* Create a 3x3 grid using flexbox */
+.captcha-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Create 3 columns */
+    gap: 1vw; /* Adjust the gap between images as needed */
+    width: auto;
+    height: 100%;
+    max-height: 100vh;
+}
+.captcha-cell {
+    flex: 0 0 calc(33.33% - 1vw); /* Adjust the width for 3 columns and spacing */
+    height: auto;
+    margin-bottom: 1vw; /* Adjust the margin for spacing between rows */
+}
+.captchaImage {
+    max-width: 100%; 
+    max-height: 100%;
+}
+.captcha-text {
+    color: #f4f4f4;
+    font-size: calc(1.6vw + 16px);
+    margin-bottom: 1vw;  
+    width: 100%;
+}
+```
+<img width="781" alt="captcah" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/64f2b349-0a32-4817-b635-b1fce1903a3b">
+
 ## 10. Ensure our Git commit history tells a coherent story
 
 ## 11. Use the appropriate input types in HTML forms for gathering different types of information
