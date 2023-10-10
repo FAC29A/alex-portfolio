@@ -42,7 +42,7 @@ graph TD;
         Our_Experts-->|Navigate with expertID|expert.html;
     end
 
-    expert.html-->|Back to experts|Our_Experts;
+   
 ```
 
 ## 2. Ensure a web page is readable for screen readers
