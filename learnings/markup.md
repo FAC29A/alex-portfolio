@@ -38,6 +38,22 @@ graph TD;
     expert.html-->|Back to experts|Our_Experts;
 ```
 
+```mermaid
+graph TD;
+
+    subgraph mainflow
+        About_Us-->Your_Needs;
+        Your_Needs-->Our_Experts;
+        Our_Experts-->Testimonials;
+    end
+
+    subgraph sideflow
+        Our_Experts-->expert.html;
+    end
+
+    expert.html-->|Back to experts|Our_Experts;
+```
+
 ## 2. Ensure a web page is readable for screen readers
 
 Utilizing proper semantic HTML elements, as mentioned earlier, is essential to ensure that our webpage is accessible to screen readers.
