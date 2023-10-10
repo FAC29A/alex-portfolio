@@ -43,6 +43,8 @@ These colors are defined as root variables, making it easy to modify the color p
 
 On the expert page, we have also used a dark color to indicate that the 'send' button in the contact form is disabled until all fields are filled out. This design choice may make the button text slightly more difficult to read. However, in this case, we prioritize aesthetics and color conventions, such as using dark colors to indicate disabled elements.
 
+<img width="698" alt="contact" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cf325f4a-e5e1-4ca6-b529-df1f6e8dc97e">
+
 ## 4. Use various tools to check that our website meets accessibility criteria
 
 We just used Lighthouse, the built-in web page and web app analyzer in Chrome Developer Tools.
