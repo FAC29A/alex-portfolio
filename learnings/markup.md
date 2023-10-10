@@ -38,10 +38,7 @@ Additionally, we have incorporated ARIA attributes to enhance accessibility.
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
-We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows.
-
-<img width="367" alt="modal" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cd40ef7d-e003-462c-a311-781bf231f49d">
-
+We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds.
 These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
 On the expert page, we have also used a dark color to indicate that the 'send' button in the contact form is disabled until all fields are filled out. This design choice may make the button text slightly more difficult to read. However, in this case, we prioritize aesthetics and color conventions, such as using dark colors to indicate disabled elements.
 
