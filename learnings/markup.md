@@ -40,14 +40,13 @@ Additionally, we have incorporated ARIA attributes to enhance accessibility.
 
 We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows.
 
-<div>
 <img width="367" alt="modal" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/cd40ef7d-e003-462c-a311-781bf231f49d">
-</div>
 
 These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
-In the expert page we also used a dark colour to indicate that the "send" button from the contact form is disabled until all the fields are fulfilled.
+On the expert page, we have also used a dark color to indicate that the 'send' button in the contact form is disabled until all fields are filled out. This design choice may make the button text slightly more difficult to read. However, in this case, we prioritize aesthetics and color conventions, such as using dark colors to indicate disabled elements.
 
 ## 4. Use various tools to check that our website meets accessibility criteria
+
 
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 
