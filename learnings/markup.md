@@ -62,11 +62,9 @@ We employed media queries in three steps to adapt the content for various device
         max-width: 90%;
         row-gap: 3rem;
     }
-
     footer {
         padding: 0 3.125rem 0 3.125rem;
     }
-
     .team-member-card {
         max-width: 250px;
     }
@@ -82,11 +80,9 @@ We employed media queries in three steps to adapt the content for various device
         row-gap: 0;
         width: 95%;
     }
-
     .grid-item-service {
         padding: 0 1.25rem;
     }
-
     .img-cell1,
     .img-cell2,
     .img-cell3,
@@ -96,11 +92,9 @@ We employed media queries in three steps to adapt the content for various device
         grid-row: auto;
         /* Reset row placement for smaller screens */
     }
-
     .order3 {
         order: 3;
     }
-
     .order4 {
         order: 4;
     }
