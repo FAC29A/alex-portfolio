@@ -38,7 +38,12 @@ Additionally, we have incorporated ARIA attributes to enhance accessibility.
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
-We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows. These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
+We have chosen a color palette that consists of dark fonts on light backgrounds and light fonts on dark backgrounds, as seen in our modal windows.
+
+
+
+These colors are defined as root variables, making it easy to modify the color palette by simply changing these values.
+In the expert page we also used a dark colour to indicate that the "send" button from the contact form is disabled until all the fields are fulfilled.
 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
