@@ -33,8 +33,8 @@ I must clarify that our site consists in two pages, being index.html the main on
 graph TD;
     About_Us-->Your_Needs;
     Your_Needs-->Our_Experts;
-    Our_experts-->|URL|expert.html & Testimonials;
-    expert.html-->|Back to experts|Our_experts;
+    Our_Experts-->|URL|expert.html & Testimonials;
+    expert.html-->|Back to experts|Our_Experts;
 ```
 
 ## 2. Ensure a web page is readable for screen readers
