@@ -31,9 +31,11 @@ I must clarify that our site consists in two pages, being index.html the main on
 
 ```mermaid
 graph TD;
-    About Us--> Your Needs
-    index.html-->|URL|expert.html;
-    expert.html-->|Back to experts|index.html;
+    About_Us-->Your_Needs;
+    Your_Needs-->Our_Experts;
+    Our_experts-->|URL|expert.html;
+    expert.html-->|Back to experts|Our_experts;
+    Our_experts-->Testimonials;
 ```
 
 ## 2. Ensure a web page is readable for screen readers
