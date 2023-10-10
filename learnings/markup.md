@@ -104,7 +104,7 @@ We didn't follow a mobile-first approach on our website. Instead, we tailored th
 
 ## 7. Use CSS variables to apply repeated colours to HTML elements
 
-We used CSS variables for 
+We employed CSS variables to define all the colors, fonts, and shadows. Perhaps our process was not the most streamlined one: we initially created the entire page and then established a variable for each element. If a similar color was already present in the palette, we utilized it; otherwise, we added new variables.
 
 ```CSS
 /*Global variables*/
@@ -129,10 +129,11 @@ We used CSS variables for
 } 
 ```
 
-
-
-
 ## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
+
+We don't have any examples of single-direction flexboxes in our code; instead, we use nested flexboxes. In the example below, there is a parent horizontal flexbox (represented by the burgundy rectangle), and inside it, there is a child vertical flexbox (depicted by the green rectangle) within a modal window. This approach provides us with better adaptability compared to using a grid and helps minimize our use of media queries.
+
+<img width="1073" alt="modalFlex" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/30a0633c-5167-4a95-a9b4-f5afa8e558bd">
 
 ## 9. Use CSS Grid to style children in two-direction layout
 
