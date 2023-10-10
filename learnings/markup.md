@@ -47,12 +47,47 @@ On the expert page, we have also used a dark color to indicate that the 'send' b
 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
+We just used Lighthouse, the built-in web page and web app analyzer in Chrome Developer Tools.
 
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 
+We employed media queries in three steps to adapt the content for various devices, including desktops, tablets, and phones. In the attached screenshot, you can observe variations in element sizes, as well as the reorganization of grid elements.
+
+<img width="267" alt="query" src="https://github.com/FAC29A/alex-portfolio/assets/94972293/5cefbc32-1581-473a-9e41-8507c359a21c">
+
 ## 6. Demonstrate a mobile-first approach to building a website
 
+We didn't follow a mobile-first approach on our website. Instead, we tailored the size of every element to be screen-size dependent, including gaps, fonts, margins, and more. We also utilized wrapping in flexboxes to automatically adapt the distribution of elements. This approach allowed us to write code that is as universal as possible. While it worked well for most cases, there were still instances where we needed to use media queries for specific parts of our site. Scaling everything isn't always sufficient.
+
 ## 7. Use CSS variables to apply repeated colours to HTML elements
+
+We used CSS variables for 
+
+```CSS
+/*Global variables*/
+:root {
+    --white: #fff;
+    --lightest-color: #f4f4f4;
+    --lightest-transparent:rgba(233, 233, 233, 0.767);
+    --dark-white: #ddd;
+    --light-grey: rgba(146,146,146,0.45);
+    --medium-grey: rgba(209,209,209,0.45);
+    --medium-dark-grey: rgba(37,37,37,0.51);
+    --dark-grey: rgba(0,0,0,0.58);
+    --darker-grey: rgba(0,0,0,0.85);
+    --burgundy: rgba(87,10,10,0.75);
+
+    --font-titles: WindSong, cursive;
+    --font-main: Prompt, sans-serif;
+
+    --box-shadow-light: 0 0 1.25rem rgba(0,0,0,0.58);
+    --box-shadow-dark: 0 0 1.25rem rgba(0,0,0,0.8);
+    --box-shadow-small: 0 0 0.75rem rgba(0,0,0,0.4);
+} 
+```
+
+
+
 
 ## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
 
