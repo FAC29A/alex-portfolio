@@ -27,6 +27,13 @@
 * `<button>`: I used it for navigation back to the expert list.
 * `<div>`: I created a modal window for captcha with this element.
   
+I must clarify that our site consists in two pages, being index.html the main one and expert.html is dynamically created passing the ID of the expert as parameter on the URL.
+
+```mermaid
+graph LR;
+    A-->B;
+    B-->A;
+```
 
 ## 2. Ensure a web page is readable for screen readers
 
