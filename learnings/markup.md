@@ -31,21 +31,16 @@ I must clarify that our site consists in two pages, being index.html the main on
 
 ```mermaid
 graph TD;
-
     subgraph Mainflow
         About_Us-->Your_Needs;
-        Your_Needs-->Our_Experts & About_Us;
-        Our_Experts-->Testimonials & Your_Needs;
-        Testimonials-->Our_Experts;
+        Your_Needs-->Our_Experts;
+        Our_Experts-->Testimonials;
     end
 
-    subgraph Check Expert
+    subgraph Check_Expert
         Our_Experts-->|Navigate with expertID|expert.html;
         expert.html-->|Back to experts|Our_Experts;
-    end
-
-
-   
+    end 
 ```
 
 ## 2. Ensure a web page is readable for screen readers
