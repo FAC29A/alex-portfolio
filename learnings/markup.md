@@ -33,7 +33,8 @@ I must clarify that our site consists in two pages, being index.html the main on
 graph TD;
     About_Us-->Your_Needs;
     Your_Needs-->Our_Experts;
-    Our_Experts-->|URL|expert.html & Testimonials;
+    Our_Experts-->|URL|expert.html;
+    Our_Experts-->Testimonials;
     expert.html-->|Back to experts|Our_Experts;
 ```
 
