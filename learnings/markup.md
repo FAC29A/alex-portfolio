@@ -96,7 +96,7 @@ We employed media queries in three steps to adapt the content for various device
     .order4 {
         order: 4;
     }
-    ```
+```
 
 ## 6. Demonstrate a mobile-first approach to building a website
 
