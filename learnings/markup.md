@@ -30,7 +30,8 @@
 I must clarify that our site consists in two pages, being index.html the main one and expert.html is dynamically created passing the ID of the expert as parameter on the URL.
 
 ```mermaid
-graph LR;
+graph TD;
+    About Us--> Your Needs
     index.html-->|URL|expert.html;
     expert.html-->|Back to experts|index.html;
 ```
