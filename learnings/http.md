@@ -40,7 +40,7 @@ Though I've employed methods like find in my code, I didn't directly incorporate
 
 ## 8. Access DOM nodes using a variety of selectors
 I accessed several DOM nodes using methods like getElementById:
-```javaSctipt
+```javaScript
 const mapElement = document.getElementById("map");
 ```
 
