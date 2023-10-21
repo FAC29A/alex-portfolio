@@ -1,4 +1,5 @@
 ## 1. Write code that executes asynchronously
+
 In my scripts.js, I've implemented async functions to execute asynchronous operations. For instance:
 ```javaScript
 async function getPostcodeCoordinates(postcode) {...}
