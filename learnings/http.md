@@ -14,7 +14,7 @@ postcodeInput.addEventListener("keydown", function (event) {...});
 ## 3. Use promises to access values that aren’t available synchronously
 In my getPostcodeCoordinates function, I've employed the fetch method, which inherently returns a promise:
 ```javaScript
-In my getPostcodeCoordinates function, I've employed the fetch method, which inherently returns a promise:
+const response = await fetch(url);
 ```
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
