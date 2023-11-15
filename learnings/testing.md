@@ -1,4 +1,4 @@
-#Testing
+# Testing
 ## 1. Check that passing a given input into our tests returns the expected output
 To ensure that our tests validate the expected output for a given input, we use the equal function from our test helpers. This function compares the expected output with the actual output and logs the result.
 ```javaScript
@@ -34,7 +34,7 @@ test('02 Clearing task text removes it from the list', async () => {
     equal(taskList.childElementCount, 0, 'Task list should be empty after clearing');
 });
 ```
-#JS
+# JS
 ## 1. Write testable, modular functions
 Modular functions are self-contained and perform a single task. This makes them easier to test and maintain.
 ```javaScript
@@ -87,7 +87,7 @@ function updateTaskList() {
     // ... code to update task list ...
 }
 ```
-#Design 
+# Design 
 ## 1. Use CSS grid to create complex layouts
 CSS grid is a powerful tool for creating complex, two-dimensional layouts.
 ```javaScript
